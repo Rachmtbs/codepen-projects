@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - User Info</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<form action="#" method = "post" id = "theform">
+  <fieldset><legend>User Info</legend>
+    <div><label for="firstname">FirstName</label><input type ="text" name = "firstName" id ="firstName" required></div>
+     <div><label for="lastName">Last Name</label><input type="text" name="lastName" id="lastName" required></div>
+     <div><label for="age">Age</label><input type="number" name="age" id="age" required></div>
+     <div><label for="email">email</label><input type="text" name="email" id="email" required>
+       <div><label for="department">Language</label><select name="language" id="language">
+	            <option value="Danish">Danish</option>
+	            <option value="English">English</option>
+	            <option value="Spanish">Spanish</option>
+              <option value="Italian">Italain</option>
+              <option value="Gaelic">Gaelic</option>
+	        </select></div>
+          <input type="submit" value="Submit" id="submit">
+  </div>
+       
+  </fieldset>
+   <div id="output"></div>
+ 
+    </div>
+</form>
+
+ 
+</div>
+
+<div id = "wrapper">
+  <h1>Is this information correct</h1>
+<div >
+      
+    <label for="checkYesBtn">Yes</label>
+    <input type="radio" name = "check" id = "checkYesBtn">
+    <label for="checkNoBtn">No</label>
+   <input type="radio" name = "check" id = "checkNoBtn">
+    <button id = "checkButton">Finish</button>
+    <! -- erro property of null in the js because i forgot the = -->
+    </div>
+</div>
+
+<!--https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox
+ struggling to build the check box function-->
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

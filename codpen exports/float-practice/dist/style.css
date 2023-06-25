@@ -1,0 +1,33 @@
+body{
+  background-color: purple;
+  margin: 50px 50px 0px 50px;
+  flex-direction: column;
+}
+h1{
+  color: #9E56F0;
+}
+.writers {
+  color: orange;
+}
+.left-img{
+  height: 100px;
+  width: 95px;
+  float: left;
+  margin-right: 10px;
+}
+
+
+.leftcard  {
+  max-width: 50%;
+  height: auto;
+}
+.class-img{
+  height: 100px;
+  width: 95px;
+  float: left;
+  margin-right: 10px;
+}
+.rightcard  {
+  max-width: 50%;
+  height: auto;
+}

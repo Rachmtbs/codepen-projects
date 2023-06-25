@@ -1,0 +1,50 @@
+body {
+  background-image: url(https://images.unsplash.com/photo-1530508777238-14544088c3ed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Z2FsYXh5JTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+}
+h1 {
+  color: yellow;
+  font-family: fantasy;
+  font-weight: bold;
+  text-align: center;
+  font-size: 52px;
+  text-shadow: 10px 10px 10px orange, 15px 15px 10px orange;
+}
+button {
+  color: purple;
+  background-color: #4caf50;
+  border: NONE;
+  display: flex;
+  padding: 25px;
+  font-size: 16px;
+  margin: 25px 870px;
+  border-radius: 15px;
+}
+.button-container {
+  text-align: center;
+  margin-top: 25px;
+}
+.Palindrome {
+  text-align: center;
+}
+
+.Palindrome label {
+  color: white;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.Palindrome input[type="text"] {
+  width: 250px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.Palindrome button {
+  color: purple;
+  background-color: #4caf50;
+  border: none;
+  display: flex;
+  padding: 25px;
+  font-size: 16px;
+  border-radius: 15px;
+}
